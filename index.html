@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriel Sebastian Wale Meo|Universitas Sanata Dharma</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="branding">
+        <h1>Gerry Wale</h1>
+         <P>Program study Informatika</P>
+        <p>Universitas Sanata Dharma</p>
+        
+      </div>
+      <div class="profile-pic">
+        <img src="assets/img/foto-gerry.jpg" alt="Gerry Wale" />
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section">
+      <h2>Welcome to My Portfolio</h2>
+      <p>I'm a passionate Informatics student who loves learning and building things!</p>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <div id="about-content"></div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Organisasi</h2>
+      <ul id="organization-list"></ul>
+
+      <h2>Kepanitiaan</h2>
+      <ul id="committee-list"></ul>
+
+      <h2>Pencapaian</h2>
+      <ul id="achievement-list"></ul>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Keahlian</h2>
+      <ul id="skill-list"></ul>
+
+      <h2>Kekurangan</h2>
+      <ul id="weakness-list"></ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: gerrywale20@gmail.com</p>
+
+      <form id="contact-form">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Tulis pesan Anda..." required></textarea>
+
+        <button type="submit">Kirim</button>
+      </form>
+
+      <div class="whatsapp-link">
+        <p>Atau hubungi langsung lewat WhatsApp:</p>
+        <a href="https://wa.me/message/PWKWHT6ESRN3G1" target="_blank" class="btn-wa">Chat via WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gerry Wale. All rights reserved.</p>
+  </footer>
+
+  <!-- Skrip JS -->
+  <script src="js/model.js"></script>
+  <script src="js/controller.js"></script>
+</body>
+</html>

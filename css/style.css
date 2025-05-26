@@ -1,0 +1,142 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0b1e39; /* biru tua gelap */
+  color: #f0f4f8;
+}
+
+a {
+  color: #70b7ff;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.header-container {
+  background-color: #09192d;
+  padding-top: 1rem;
+}
+
+.branding h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.branding p {
+  margin: 0;
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+
+.profile-pic img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #70b7ff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin: 0;
+  padding: 0.5rem 0;
+  background-color: #0e2644;
+}
+
+nav ul li a {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  border-bottom: 2px solid #70b7ff;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #09192d;
+  font-size: 0.9rem;
+  color: #cccccc;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  #contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 12px;
+  margin-top: 1rem;
+}
+
+#contact-form input,
+#contact-form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: 'Poppins', sans-serif;
+}
+
+#contact-form button {
+  padding: 10px;
+  background-color: #1a237e; /* biru tua */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#contact-form button:hover {
+  background-color: #0d153f;
+}
+
+.whatsapp-link {
+  margin-top: 1.5rem;
+}
+
+.btn-wa {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-wa:hover {
+  background-color: #128C7E;
+}
+
+}
